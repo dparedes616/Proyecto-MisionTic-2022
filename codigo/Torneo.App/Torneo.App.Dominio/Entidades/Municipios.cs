@@ -1,6 +1,6 @@
 namespace Torneo.App.Dominio
 {
-    class Municpios
+    public class Municipios
     {
         public int Id { get; set; }
         public string Nombre { get; set; }

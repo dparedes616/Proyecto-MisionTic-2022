@@ -782,6 +782,16 @@
             "rid": "win"
           }
         }
+      },
+      "Torneo.App.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Torneo.App.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Torneo.App.Dominio.dll": {}
+        }
       }
     }
   },
@@ -2003,6 +2013,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Torneo.App.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Torneo.App.Dominio/Torneo.App.Dominio.csproj",
+      "msbuildProject": "../Torneo.App.Dominio/Torneo.App.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2010,7 +2025,8 @@
       "Microsoft.EntityFrameworkCore >= 6.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.8",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.8"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.8",
+      "Torneo.App.Dominio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2037,7 +2053,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\documents\\misiontic\\semestre3\\proyecto\\codigo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj": {
+              "projectPath": "G:\\documents\\misiontic\\semestre3\\proyecto\\codigo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,12 @@
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.csproj.AssemblyReference.cache
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.AssemblyInfoInputs.cache
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.AssemblyInfo.cs
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.csproj.CoreCompileInputs.cache
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.deps.json
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.pdb
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\refint\Torneo.App.Dominio.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.pdb
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\ref\Torneo.App.Dominio.dll
