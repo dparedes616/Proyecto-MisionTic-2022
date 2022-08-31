@@ -1,15 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using Torneo.App.Dominio;
+
 namespace Torneo.App.Persistencia
 {
     public class DataContext : DbContext
     { 
-        public DbSet<Municipios> Municipios {get; set;}
+        public DbSet<Municipio> Municipios {get; set;}
         public DbSet<DT> DirectoresTecnicos {get; set;}
-        public DbSet<Equipos> Equipos {get; set;}
-        public DbSet<Partidos> Partidos {get; set;}
-        public DbSet<Posiciones> Posiciones {get; set;}
-        public DbSet<Jugadores> Jugadores {get; set;}
+        public DbSet<Equipo> Equipos {get; set;}
+        public DbSet<Partido> Partidos {get; set;}
+        public DbSet<Posicione> Posiciones {get; set;}
+        public DbSet<Jugadore> Jugadores {get; set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

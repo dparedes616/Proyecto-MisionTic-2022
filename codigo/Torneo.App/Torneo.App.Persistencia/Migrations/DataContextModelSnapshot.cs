@@ -47,7 +47,7 @@ namespace Torneo.App.Persistencia.Migrations
                     b.ToTable("DirectoresTecnicos");
                 });
 
-            modelBuilder.Entity("Torneo.App.Dominio.Equipos", b =>
+            modelBuilder.Entity("Torneo.App.Dominio.Equipo", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -58,7 +58,7 @@ namespace Torneo.App.Persistencia.Migrations
                     b.Property<int>("DirectorTecnicoId")
                         .HasColumnType("int");
 
-                    b.Property<int>("MunicipiosId")
+                    b.Property<int>("MunicipioId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre")
@@ -69,12 +69,12 @@ namespace Torneo.App.Persistencia.Migrations
 
                     b.HasIndex("DirectorTecnicoId");
 
-                    b.HasIndex("MunicipiosId");
+                    b.HasIndex("MunicipioId");
 
                     b.ToTable("Equipos");
                 });
 
-            modelBuilder.Entity("Torneo.App.Dominio.Jugadores", b =>
+            modelBuilder.Entity("Torneo.App.Dominio.Jugadore", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -82,14 +82,14 @@ namespace Torneo.App.Persistencia.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
 
-                    b.Property<int>("EquiposId")
+                    b.Property<int>("EquipoId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PosicionesId")
+                    b.Property<int>("PosicioneId")
                         .HasColumnType("int");
 
                     b.Property<int>("numero")
@@ -97,14 +97,14 @@ namespace Torneo.App.Persistencia.Migrations
 
                     b.HasKey("id");
 
-                    b.HasIndex("EquiposId");
+                    b.HasIndex("EquipoId");
 
-                    b.HasIndex("PosicionesId");
+                    b.HasIndex("PosicioneId");
 
                     b.ToTable("Jugadores");
                 });
 
-            modelBuilder.Entity("Torneo.App.Dominio.Municipios", b =>
+            modelBuilder.Entity("Torneo.App.Dominio.Municipio", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -121,7 +121,7 @@ namespace Torneo.App.Persistencia.Migrations
                     b.ToTable("Municipios");
                 });
 
-            modelBuilder.Entity("Torneo.App.Dominio.Partidos", b =>
+            modelBuilder.Entity("Torneo.App.Dominio.Partido", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -153,7 +153,7 @@ namespace Torneo.App.Persistencia.Migrations
                     b.ToTable("Partidos");
                 });
 
-            modelBuilder.Entity("Torneo.App.Dominio.Posiciones", b =>
+            modelBuilder.Entity("Torneo.App.Dominio.Posicione", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -170,7 +170,7 @@ namespace Torneo.App.Persistencia.Migrations
                     b.ToTable("Posiciones");
                 });
 
-            modelBuilder.Entity("Torneo.App.Dominio.Equipos", b =>
+            modelBuilder.Entity("Torneo.App.Dominio.Equipo", b =>
                 {
                     b.HasOne("Torneo.App.Dominio.DT", "DirectorTecnico")
                         .WithMany()
@@ -178,45 +178,45 @@ namespace Torneo.App.Persistencia.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("Torneo.App.Dominio.Municipios", "Municipios")
+                    b.HasOne("Torneo.App.Dominio.Municipio", "Municipio")
                         .WithMany()
-                        .HasForeignKey("MunicipiosId")
+                        .HasForeignKey("MunicipioId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("DirectorTecnico");
 
-                    b.Navigation("Municipios");
+                    b.Navigation("Municipio");
                 });
 
-            modelBuilder.Entity("Torneo.App.Dominio.Jugadores", b =>
+            modelBuilder.Entity("Torneo.App.Dominio.Jugadore", b =>
                 {
-                    b.HasOne("Torneo.App.Dominio.Equipos", "Equipos")
+                    b.HasOne("Torneo.App.Dominio.Equipo", "Equipo")
                         .WithMany()
-                        .HasForeignKey("EquiposId")
+                        .HasForeignKey("EquipoId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("Torneo.App.Dominio.Posiciones", "Posiciones")
+                    b.HasOne("Torneo.App.Dominio.Posicione", "Posicione")
                         .WithMany()
-                        .HasForeignKey("PosicionesId")
+                        .HasForeignKey("PosicioneId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.Navigation("Equipos");
+                    b.Navigation("Equipo");
 
-                    b.Navigation("Posiciones");
+                    b.Navigation("Posicione");
                 });
 
-            modelBuilder.Entity("Torneo.App.Dominio.Partidos", b =>
+            modelBuilder.Entity("Torneo.App.Dominio.Partido", b =>
                 {
-                    b.HasOne("Torneo.App.Dominio.Equipos", "Local")
+                    b.HasOne("Torneo.App.Dominio.Equipo", "Local")
                         .WithMany()
                         .HasForeignKey("LocalId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("Torneo.App.Dominio.Equipos", "Visitante")
+                    b.HasOne("Torneo.App.Dominio.Equipo", "Visitante")
                         .WithMany()
                         .HasForeignKey("VisitanteId")
                         .OnDelete(DeleteBehavior.Restrict)
