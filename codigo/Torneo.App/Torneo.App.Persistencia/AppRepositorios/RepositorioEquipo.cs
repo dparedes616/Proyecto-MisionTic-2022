@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+/*using Microsoft.EntityFrameworkCore;
 using Torneo.App.Dominio;
 
 namespace Torneo.App.Persistencia
@@ -14,4 +14,4 @@ namespace Torneo.App.Persistencia
             return municipioInsertado.Entity;
         }
     }
-}
+}*/

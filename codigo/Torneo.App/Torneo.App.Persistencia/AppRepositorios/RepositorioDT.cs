@@ -7,11 +7,11 @@ namespace Torneo.App.Persistencia
     {
         private readonly DataContext _dataContext = new DataContext();
 
-        public  DT AddMunicipio(DT dT)
+        public  DT AddDT(DT dT)
         {
-            var dTInsertado = _dataContext.DirectoresTecnicos.Add(dT);
+            var dtInsertado = _dataContext.DirectoresTecnicos.Add(dT);
             _dataContext.SaveChanges();
-            return dTInsertado.Entity;
+            return dtInsertado.Entity;
         }
     }
 }

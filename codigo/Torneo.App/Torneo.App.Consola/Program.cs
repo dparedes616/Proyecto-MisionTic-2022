@@ -8,7 +8,7 @@ namespace Torneo.App.Consola
         private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio();
         private static IRepositorioPosicion _repoPosicion = new RepositorioPosicion();
         private static IRepositorioPartido _repoPartido = new RepositorioPartido();
-        private static IRepositorioDt _repoDt = new RepositorioDT();
+        private static IRepositorioDT _repoDt = new RepositorioDT();
         static void Main(string [] args)
         {
             int opción = 0;
@@ -31,10 +31,16 @@ namespace Torneo.App.Consola
                     case 3:
                         AddPartido();
                         break;
+                    case 4:
+                        AddDT();
+                        break;
+
                 }
 
             } while (opción != 0);
         }
+
+//__________________________________________________________________________________________________________//
 
         private static void AddMunicipio()
         {
@@ -46,7 +52,7 @@ namespace Torneo.App.Consola
             };
             _repoMunicipio.AddMunicipio(municipio);
         }
-
+//__________________________________________________________________________________________________________//
         private static void AddPosicion()
         {
             Console.WriteLine("Ingrese una posición");
@@ -57,7 +63,7 @@ namespace Torneo.App.Consola
             };
             _repoPosicion.AddPosicion(posicion);
         }
-
+//__________________________________________________________________________________________________________//
         private static void AddPartido()
         {
             Console.WriteLine("Ingrese la fecha del partido");
@@ -91,6 +97,24 @@ namespace Torneo.App.Consola
                 MarcadorVisitante = MarcadorVisitante,
             };
             _repoPartido.AddPartido(partido);
+        }
+//__________________________________________________________________________________________________________//
+
+        private static void AddDT()
+        {
+            Console.WriteLine("Ingrese el nombre del director tecnico");
+            string nombre = Console.ReadLine();
+            Console.WriteLine("Ingrese el documento del director tecnico");
+            string documento = Console.ReadLine();
+            Console.WriteLine("Ingrese el telefono del director tecnico");
+            string telefono = Console.ReadLine();
+            var directorTecnico = new DT
+            {
+                Nombre = nombre,
+                Documento = documento,
+                Telefono = telefono,
+            };
+            _repoDt.AddDT(directorTecnico);
         }
 
 
