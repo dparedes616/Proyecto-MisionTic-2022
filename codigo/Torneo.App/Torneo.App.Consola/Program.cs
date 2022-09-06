@@ -8,6 +8,7 @@ namespace Torneo.App.Consola
         private static IRepositorioMunicipio _repoMunicipio = new RepositorioMunicipio();
         private static IRepositorioPosicion _repoPosicion = new RepositorioPosicion();
         private static IRepositorioPartido _repoPartido = new RepositorioPartido();
+        private static IRepositorioDt _repoDt = new RepositorioDT();
         static void Main(string [] args)
         {
             int opción = 0;
@@ -16,6 +17,7 @@ namespace Torneo.App.Consola
                 Console.WriteLine("1 Insertar un municipio");
                 Console.WriteLine("2 Inserte una posición");
                 Console.WriteLine("3 Insertar un partido");
+                Console.WriteLine("4 Insertar un director tecnico");
                 Console.WriteLine("0 Salir");
                 opción = Int32.Parse(Console.ReadLine());
                 switch (opción)
