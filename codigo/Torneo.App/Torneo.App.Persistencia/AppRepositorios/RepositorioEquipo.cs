@@ -1,4 +1,4 @@
-/*using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Torneo.App.Dominio;
 
 namespace Torneo.App.Persistencia
@@ -7,11 +7,15 @@ namespace Torneo.App.Persistencia
     {
         private readonly DataContext _dataContext = new DataContext();
 
-        public Equipo AddEquipo(Equipo equipo, int idMunicipio)
+        public Equipo AddEquipo(Equipo equipo, int IdMunicipio, int IdDT)
         {
-            var municipioInsertado = _dataContext.Municipios.Add(municipio);
+            var municipioEncontrado = _dataContext.Municipios.Find(IdMunicipio);
+            var DTEncontrado = _dataContext.DirectoresTecnicos.Find(IdDT);
+            equipo.Municipio = municipioEncontrado;
+            equipo.DirectorTecnico = DTEncontrado;
+            var equipoInsertado = _dataContext.Equipos.Add(equipo);
             _dataContext.SaveChanges();
-            return municipioInsertado.Entity;
+            return equipoInsertado.Entity;
         }
     }
-}*/
+}

@@ -9,6 +9,7 @@ namespace Torneo.App.Consola
         private static IRepositorioPosicion _repoPosicion = new RepositorioPosicion();
         private static IRepositorioPartido _repoPartido = new RepositorioPartido();
         private static IRepositorioDT _repoDt = new RepositorioDT();
+        private static IRepositorioEquipo _repoEquipo = new RepositorioEquipo();
         static void Main(string [] args)
         {
             int opción = 0;
@@ -18,6 +19,7 @@ namespace Torneo.App.Consola
                 Console.WriteLine("2 Inserte una posición");
                 Console.WriteLine("3 Insertar un partido");
                 Console.WriteLine("4 Insertar un director tecnico");
+                Console.WriteLine("5 Insertar un equipo");
                 Console.WriteLine("0 Salir");
                 opción = Int32.Parse(Console.ReadLine());
                 switch (opción)
@@ -33,6 +35,9 @@ namespace Torneo.App.Consola
                         break;
                     case 4:
                         AddDT();
+                        break;
+                    case 5:
+                        AddEquipo();
                         break;
 
                 }
@@ -115,6 +120,23 @@ namespace Torneo.App.Consola
                 Telefono = telefono,
             };
             _repoDt.AddDT(directorTecnico);
+        }
+//__________________________________________________________________________________________________________//
+
+        private static void AddEquipo()
+        {
+            Console.WriteLine("Ingrese el nombre del equipo");
+            string nombre = Console.ReadLine();
+            Console.WriteLine("Ingrese el id del municipio");
+            int IdMunicipio = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese id del director tecnico");
+            int IdDT = Int32.Parse(Console.ReadLine());
+
+            var equipo = new Equipo 
+            {
+                Nombre = nombre,
+            };
+            _repoEquipo.AddEquipo(equipo, IdMunicipio, IdDT);
         }
 
 
