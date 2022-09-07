@@ -60,7 +60,7 @@ namespace Torneo.App.Console
             Console.WriteLine("Ingrese el id de la posición del jugador");
             string idposición =Int32.Parse(Console.ReadLine());
             var jugador=new Jugador{Nombre=nombre, Numero=numero,};
-            _repoJugador.AddJugador(nombre,numero,idposición,idequipo);
+            _repoJugador.AddJugador(nombre,numero,idequipo,idposición);
         }
     }
 }
