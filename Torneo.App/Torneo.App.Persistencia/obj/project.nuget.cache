@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kmoPS+PFTNuRxz7l1CnRqAR6qs4sAeoA+QCjO2dfIpP6xzPxm9dMV87PBbZYPh1uSRu2stNYuOLA/nT5yEoMww==",
+  "dgSpecHash": "lr7Y1oL+z7NqqpnnCrkecYNYmPq4KCJHX+8L+5EwWbzKiEECJlP19XqOONTaqzeNk3RG14qLbMyyBfi8pNYYFA==",
   "success": true,
-  "projectFilePath": "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
+  "projectFilePath": "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
