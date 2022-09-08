@@ -66,13 +66,13 @@ namespace Torneo.App.Console
         }
         private static void AddEquipo()
         {
-            Console.WriteLine("Ingrese el nombre del equipo")
+            Console.WriteLine("Ingrese el nombre del equipo");
             string nombre=Console.ReadLine();
-            Console.WriteLine("Ingrese el id del municipio del equipo")
+            Console.WriteLine("Ingrese el id del municipio del equipo");
             int idMunicipio = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese el id del director técnico del equipo")
+            Console.WriteLine("Ingrese el id del director técnico del equipo");
             int idDT= Int32.Parse(Console.ReadLine());
-            var equipo = new Equipo{Nombre=nombre}
+            var equipo = new Equipo{Nombre=nombre};
             _repoEquipo.AddEquipo(nombre,idMunicipio,idDT);
         }
     }
