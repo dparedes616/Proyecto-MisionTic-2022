@@ -20,6 +20,7 @@ namespace Torneo.App.Consola
                 Console.WriteLine("3 Insertar un partido");
                 Console.WriteLine("4 Insertar un director tecnico");
                 Console.WriteLine("5 Insertar un equipo");
+                Console.WriteLine("6 Mostrar lista municipios");
                 Console.WriteLine("0 Salir");
                 opción = Int32.Parse(Console.ReadLine());
                 switch (opción)
@@ -38,6 +39,9 @@ namespace Torneo.App.Consola
                         break;
                     case 5:
                         AddEquipo();
+                        break;
+                    case 6:
+                        GetAllMunicipios();
                         break;
 
                 }
@@ -138,7 +142,16 @@ namespace Torneo.App.Consola
             };
             _repoEquipo.AddEquipo(equipo, IdMunicipio, IdDT);
         }
+//Metodo Get Municipio__________________________________________________________________________________________________________//
 
+        private static void GetAllMunicipios()
+        { 
+            foreach (var municipio in _repoMunicipio.GetAllMunicipios())
+            {
+                Console.WriteLine(municipio.Id + " " + municipio.Nombre);
+            }
+
+        }
 
     }
 }

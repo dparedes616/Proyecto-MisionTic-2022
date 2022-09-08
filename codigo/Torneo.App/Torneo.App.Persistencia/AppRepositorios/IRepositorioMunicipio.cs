@@ -4,5 +4,6 @@ using Torneo.App.Dominio;
     public interface IRepositorioMunicipio
     {
         public Municipio AddMunicipio (Municipio municipio);
+        public IEnumerable<Municipio> GetAllMunicipios();
     }
  }
