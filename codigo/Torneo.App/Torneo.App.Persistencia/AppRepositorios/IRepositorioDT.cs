@@ -4,5 +4,6 @@ using Torneo.App.Dominio;
     public interface IRepositorioDT
     {
         public DT AddDT (DT dT );
+        public IEnumerable<DT> GetAlldT();
     }
  }

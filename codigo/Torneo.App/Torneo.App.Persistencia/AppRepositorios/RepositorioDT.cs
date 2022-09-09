@@ -13,5 +13,11 @@ namespace Torneo.App.Persistencia
             _dataContext.SaveChanges();
             return dtInsertado.Entity;
         }
+         public IEnumerable<DT> GetAlldT()
+        {
+            return _dataContext.DirectoresTecnicos;
+        }
+
+
     }
 }
