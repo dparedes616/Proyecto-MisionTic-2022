@@ -27,6 +27,7 @@ namespace Torneo.App.Consola
                 Console.WriteLine("7. Mostrar lista municipios"); /*ok*/
                 Console.WriteLine("8. Mostrar lista directores tecnicos"); /*ok*/
                 Console.WriteLine("9. Mostrar lista posiciones"); /*ok*/
+                Console.WriteLine("10. Mostrar lista equipos"); /*ok*/
                 Console.WriteLine("-------------------------");
                 Console.WriteLine("0. Salir"); /*ok*/
                 opción = Int32.Parse(Console.ReadLine());
@@ -58,6 +59,9 @@ namespace Torneo.App.Consola
                         break;
                     case 9:
                         GetAllPosiciones();
+                        break;
+                    case 10:
+                        GetAllEquipos();
                         break;
 
                 }
@@ -213,5 +217,15 @@ namespace Torneo.App.Consola
 
         }
 
+        //Metodo Get Equipos__________________________________________________________________________________________________________//
+
+        private static void GetAllEquipos()
+        { 
+            foreach (var equipos in _repoEquipo.GetAllEquipos())
+            {
+                Console.WriteLine(equipos.Nombre + " " + equipos.Municipio.Nombre + " " + equipos.DirectorTecnico.Nombre);
+            }
+
+        }
     }
 }

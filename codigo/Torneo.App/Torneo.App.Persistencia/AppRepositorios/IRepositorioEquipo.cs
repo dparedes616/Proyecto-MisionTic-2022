@@ -4,5 +4,6 @@ using Torneo.App.Dominio;
     public interface IRepositorioEquipo
     {
         public Equipo AddEquipo (Equipo equipo, int IdMunicipio, int IdDT );
+        public IEnumerable<Equipo> GetAllEquipos();
     }
  }
