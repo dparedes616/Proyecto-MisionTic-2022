@@ -10,18 +10,20 @@ namespace Torneo.App.Consola
         private static IRepositorioPartido _repoPartido = new RepositorioPartido();
         private static IRepositorioDT _repoDt = new RepositorioDT();
         private static IRepositorioEquipo _repoEquipo = new RepositorioEquipo();
+        private static IRepositorioJugador _repoJugador = new RepositorioJugador();
         static void Main(string [] args)
         {
             int opción = 0;
             do
             {
-                Console.WriteLine("1 Insertar un municipio");
-                Console.WriteLine("2 Inserte una posición");
+                Console.WriteLine("1 Insertar un municipio"); /*ok*/
+                Console.WriteLine("2 Inserte una posición"); /*ok*/
                 Console.WriteLine("3 Insertar un partido");
-                Console.WriteLine("4 Insertar un director tecnico");
-                Console.WriteLine("5 Insertar un equipo");
-                Console.WriteLine("6 Mostrar lista municipios");
-                Console.WriteLine("0 Salir");
+                Console.WriteLine("4 Insertar un director tecnico"); /*ok*/
+                Console.WriteLine("5 Insertar un equipo"); /*ok*/
+                Console.WriteLine("6 Insertar un jugador");
+                Console.WriteLine("7 Mostrar lista municipios"); /*ok*/
+                Console.WriteLine("0 Salir"); /*ok*/
                 opción = Int32.Parse(Console.ReadLine());
                 switch (opción)
                 {
@@ -41,6 +43,9 @@ namespace Torneo.App.Consola
                         AddEquipo();
                         break;
                     case 6:
+                        AddJugador();
+                        break;
+                    case 7:
                         GetAllMunicipios();
                         break;
 
@@ -49,7 +54,7 @@ namespace Torneo.App.Consola
             } while (opción != 0);
         }
 
-//__________________________________________________________________________________________________________//
+         //__________________________________________________________________________________________________________//
 
         private static void AddMunicipio()
         {
@@ -61,7 +66,7 @@ namespace Torneo.App.Consola
             };
             _repoMunicipio.AddMunicipio(municipio);
         }
-//__________________________________________________________________________________________________________//
+         //__________________________________________________________________________________________________________//
         private static void AddPosicion()
         {
             Console.WriteLine("Ingrese una posición");
@@ -72,7 +77,7 @@ namespace Torneo.App.Consola
             };
             _repoPosicion.AddPosicion(posicion);
         }
-//__________________________________________________________________________________________________________//
+         //__________________________________________________________________________________________________________//
         private static void AddPartido()
         {
             Console.WriteLine("Ingrese la fecha del partido");
@@ -107,7 +112,7 @@ namespace Torneo.App.Consola
             };
             _repoPartido.AddPartido(partido);
         }
-//__________________________________________________________________________________________________________//
+         //__________________________________________________________________________________________________________//
 
         private static void AddDT()
         {
@@ -125,7 +130,7 @@ namespace Torneo.App.Consola
             };
             _repoDt.AddDT(directorTecnico);
         }
-//__________________________________________________________________________________________________________//
+         //__________________________________________________________________________________________________________//
 
         private static void AddEquipo()
         {
@@ -142,7 +147,29 @@ namespace Torneo.App.Consola
             };
             _repoEquipo.AddEquipo(equipo, IdMunicipio, IdDT);
         }
-//Metodo Get Municipio__________________________________________________________________________________________________________//
+
+         //__________________________________________________________________________________________________________//
+
+        private static void AddJugador()
+        {
+            Console.WriteLine("Ingrese el nombre del jugador");
+            string nombre = Console.ReadLine();
+            Console.WriteLine("Ingrese el numero del jugador");
+            int numero = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese id equipo");
+            int IdEquipo = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese id la posición");
+            int IdPosicion = Int32.Parse(Console.ReadLine());
+
+            var jugador = new Jugador 
+            {
+                Nombre = nombre,
+                Numero = numero,
+            };
+            _repoJugador.AddJugador(jugador, IdEquipo, IdPosicion);
+        }
+
+         //Metodo Get Municipio__________________________________________________________________________________________________________//
 
         private static void GetAllMunicipios()
         { 
