@@ -58,3 +58,5 @@ G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Consola\o
 G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Consola\obj\Debug\net6.0\Torneo.App.Consola.pdb
 G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Consola\obj\Debug\net6.0\Torneo.App.Consola.genruntimeconfig.cache
 G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Consola\obj\Debug\net6.0\ref\Torneo.App.Consola.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Consola\bin\Debug\net6.0\Humanizer.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

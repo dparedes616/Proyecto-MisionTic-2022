@@ -17,6 +17,8 @@ namespace Torneo.App.Consola
             do
             {
                 Console.WriteLine("-------------------------");
+                Console.WriteLine("-----------MENU----------");
+                Console.WriteLine("-------------------------");
                 Console.WriteLine("1. Insertar un municipio"); /*ok*/
                 Console.WriteLine("2. Inserte una posición"); /*ok*/
                 Console.WriteLine("3. Insertar un partido");
@@ -184,7 +186,7 @@ namespace Torneo.App.Consola
             _repoJugador.AddJugador(jugador, IdEquipo, IdPosicion);
         }
 
-         //Metodo Get Municipios__________________________________________________________________________________________________________//
+            //Metodo Get Municipios__________________________________________________________________________________________________________//
 
         private static void GetAllMunicipios()
         { 
@@ -192,10 +194,9 @@ namespace Torneo.App.Consola
             {
                 Console.WriteLine(municipio.Id + " " + municipio.Nombre);
             }
-
         }
 
-        //Metodo Get Dts__________________________________________________________________________________________________________//
+            //Metodo Get Dts__________________________________________________________________________________________________________//
 
         private static void GetAlldT()
         { 
@@ -203,10 +204,9 @@ namespace Torneo.App.Consola
             {
                 Console.WriteLine(directoresTecnicos.Id + " " + directoresTecnicos.Nombre);
             }
-
         }
 
-        //Metodo Get Posiciones__________________________________________________________________________________________________________//
+            //Metodo Get Posiciones__________________________________________________________________________________________________________//
 
         private static void GetAllPosiciones()
         { 
@@ -214,10 +214,9 @@ namespace Torneo.App.Consola
             {
                 Console.WriteLine(posiciones.Id + " " + posiciones.Nombre);
             }
-
         }
 
-        //Metodo Get Equipos__________________________________________________________________________________________________________//
+            //Metodo Get Equipos__________________________________________________________________________________________________________//
 
         private static void GetAllEquipos()
         { 
@@ -225,7 +224,6 @@ namespace Torneo.App.Consola
             {
                 Console.WriteLine(equipos.Nombre + " " + equipos.Municipio.Nombre + " " + equipos.DirectorTecnico.Nombre);
             }
-
         }
     }
 }

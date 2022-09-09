@@ -74,7 +74,7 @@ namespace Torneo.App.Persistencia.Migrations
                     b.ToTable("Equipos");
                 });
 
-            modelBuilder.Entity("Torneo.App.Dominio.Jugadore", b =>
+            modelBuilder.Entity("Torneo.App.Dominio.Jugador", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -82,24 +82,20 @@ namespace Torneo.App.Persistencia.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
 
-                    b.Property<int>("EquipoId")
+                    b.Property<int>("Equipo")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PosicioneId")
+                    b.Property<int>("Numero")
                         .HasColumnType("int");
 
-                    b.Property<int>("numero")
+                    b.Property<int>("Posicion")
                         .HasColumnType("int");
 
                     b.HasKey("id");
-
-                    b.HasIndex("EquipoId");
-
-                    b.HasIndex("PosicioneId");
 
                     b.ToTable("Jugadores");
                 });
@@ -132,7 +128,7 @@ namespace Torneo.App.Persistencia.Migrations
                     b.Property<DateTime>("FechaHora")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("LocalId")
+                    b.Property<int>("Local")
                         .HasColumnType("int");
 
                     b.Property<int>("MarcadorLocal")
@@ -141,19 +137,15 @@ namespace Torneo.App.Persistencia.Migrations
                     b.Property<int>("MarcadorVisitante")
                         .HasColumnType("int");
 
-                    b.Property<int>("VisitanteId")
+                    b.Property<int>("Visitante")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("LocalId");
-
-                    b.HasIndex("VisitanteId");
-
                     b.ToTable("Partidos");
                 });
 
-            modelBuilder.Entity("Torneo.App.Dominio.Posicione", b =>
+            modelBuilder.Entity("Torneo.App.Dominio.Posicion", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -187,44 +179,6 @@ namespace Torneo.App.Persistencia.Migrations
                     b.Navigation("DirectorTecnico");
 
                     b.Navigation("Municipio");
-                });
-
-            modelBuilder.Entity("Torneo.App.Dominio.Jugadore", b =>
-                {
-                    b.HasOne("Torneo.App.Dominio.Equipo", "Equipo")
-                        .WithMany()
-                        .HasForeignKey("EquipoId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("Torneo.App.Dominio.Posicione", "Posicione")
-                        .WithMany()
-                        .HasForeignKey("PosicioneId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Equipo");
-
-                    b.Navigation("Posicione");
-                });
-
-            modelBuilder.Entity("Torneo.App.Dominio.Partido", b =>
-                {
-                    b.HasOne("Torneo.App.Dominio.Equipo", "Local")
-                        .WithMany()
-                        .HasForeignKey("LocalId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("Torneo.App.Dominio.Equipo", "Visitante")
-                        .WithMany()
-                        .HasForeignKey("VisitanteId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Local");
-
-                    b.Navigation("Visitante");
                 });
 #pragma warning restore 612, 618
         }
