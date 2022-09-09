@@ -17,17 +17,18 @@ namespace Torneo.App.Consola
             do
             {
                 Console.WriteLine("-------------------------");
-                Console.WriteLine("1 Insertar un municipio"); /*ok*/
-                Console.WriteLine("2 Inserte una posición"); /*ok*/
-                Console.WriteLine("3 Insertar un partido");
-                Console.WriteLine("4 Insertar un director tecnico"); /*ok*/
-                Console.WriteLine("5 Insertar un equipo"); /*ok*/
-                Console.WriteLine("6 Insertar un jugador");
+                Console.WriteLine("1. Insertar un municipio"); /*ok*/
+                Console.WriteLine("2. Inserte una posición"); /*ok*/
+                Console.WriteLine("3. Insertar un partido");
+                Console.WriteLine("4. Insertar un director tecnico"); /*ok*/
+                Console.WriteLine("5. Insertar un equipo"); /*ok*/
+                Console.WriteLine("6. Insertar un jugador");
                 Console.WriteLine("-------------------------");
-                Console.WriteLine("7 Mostrar lista municipios"); /*ok*/
-                Console.WriteLine("8 Mostrar lista directores tecnicos"); /*ok*/
+                Console.WriteLine("7. Mostrar lista municipios"); /*ok*/
+                Console.WriteLine("8. Mostrar lista directores tecnicos"); /*ok*/
+                Console.WriteLine("9. Mostrar lista posiciones"); /*ok*/
                 Console.WriteLine("-------------------------");
-                Console.WriteLine("0 Salir"); /*ok*/
+                Console.WriteLine("0. Salir"); /*ok*/
                 opción = Int32.Parse(Console.ReadLine());
                 switch (opción)
                 {
@@ -54,6 +55,9 @@ namespace Torneo.App.Consola
                         break;
                     case 8:
                         GetAlldT();
+                        break;
+                    case 9:
+                        GetAllPosiciones();
                         break;
 
                 }
@@ -194,6 +198,17 @@ namespace Torneo.App.Consola
             foreach (var directoresTecnicos in _repoDt.GetAlldT())
             {
                 Console.WriteLine(directoresTecnicos.Id + " " + directoresTecnicos.Nombre);
+            }
+
+        }
+
+        //Metodo Get Posiciones__________________________________________________________________________________________________________//
+
+        private static void GetAllPosiciones()
+        { 
+            foreach (var posiciones in _repoPosicion.GetAllPosiciones())
+            {
+                Console.WriteLine(posiciones.Id + " " + posiciones.Nombre);
             }
 
         }
