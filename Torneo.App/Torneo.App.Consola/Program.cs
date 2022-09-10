@@ -11,16 +11,22 @@ namespace Torneo.App.Consola
         private static IRepositorioEquipo _repoEquipo = new RepositorioEquipo();
         static void Main(string[] args)
         {
-            int opcion =0;
+            int opcion = 0;
             do
             {
                 Console.WriteLine("1. Insertar Municipio");
                 Console.WriteLine("2. Insertar Director Tecnico");
                 Console.WriteLine("3. Insertar Jugador");
                 Console.WriteLine("4. Insertar Equipo");
+                Console.WriteLine("-------------------------------");
+                Console.WriteLine("5. Mostrar todos los Municipios");
+                Console.WriteLine("6. Mostrar todos los Equipos");
+                Console.WriteLine("7. Mostrar todos los Directores Tecnicos");
+                Console.WriteLine("8. Mostrar todos los Jugadores");
+                Console.WriteLine("-------------------------------");
                 Console.WriteLine("0. Salir");
-                opcion=Int32.Parse(Console.ReadLine());
-                switch(opcion)
+                opcion = Int32.Parse(Console.ReadLine());
+                switch (opcion)
                 {
                     case 1:
                         AddMunicipio();
@@ -31,56 +37,90 @@ namespace Torneo.App.Consola
                     case 3:
                         AddJugador();
                         break;
-                     case 4:
+                    case 4:
                         AddEquipo();
                         break;
+                    case 5:
+                        GetAllMunicipios();
+                        break;
+                    case 6:
+                        GetAllEquipos();
+                        break;   
+                     case 7:
+                        GetAllDT();
+                        break; 
                 }
-            }while (opcion !=0);           
+            } while (opcion != 0);
         }
         private static void AddMunicipio()
         {
             Console.WriteLine("Ingrese el nombre del municipio");
-            string nombre = Console.ReadLine();            
-            var municipio = new Municipio{Nombre = nombre,};
+            string nombre = Console.ReadLine();
+            var municipio = new Municipio { Nombre = nombre, };
             _repoMunicipio.AddMunicipio(municipio);
         }
         private static void AddDT()
         {
             Console.WriteLine("Ingrese el nombre del director técnico");
-            string nombre =Console.ReadLine();
+            string nombre = Console.ReadLine();
             Console.WriteLine("Ingrese el documento del director técnico");
-            string documento =Console.ReadLine();
+            string documento = Console.ReadLine();
             Console.WriteLine("Ingrese el telefono del director técnico");
-            string telefono =Console.ReadLine();
-            var dt=new DirectorTecnico{Nombre= nombre,Documento=documento,Telefono=telefono,};
+            string telefono = Console.ReadLine();
+            var dt = new DirectorTecnico { Nombre = nombre, Documento = documento, Telefono = telefono, };
             _repoDT.AddDT(dt);
         }
         private static void AddJugador()
         {
             Console.WriteLine("Ingrese el nombre del jugador");
-            string nombre =Console.ReadLine();
+            string nombre = Console.ReadLine();
             Console.WriteLine("Ingrese el numero del jugador");
-            string numero =Console.ReadLine();
+            string numero = Console.ReadLine();
             Console.WriteLine("Ingrese el id del equipo del jugador");
-            int idequipo =Int32.Parse(Console.ReadLine());
+            int idequipo = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese el id de la posición del jugador");
-            int idposición =Int32.Parse(Console.ReadLine());
-            var jugador=new Jugador{Nombre=nombre, Numero=numero,};
-            _repoJugador.AddJugador(jugador,numero,idequipo,idposición);
+            int idposición = Int32.Parse(Console.ReadLine());
+            var jugador = new Jugador { Nombre = nombre, Numero = numero, };
+            _repoJugador.AddJugador(jugador, numero, idequipo, idposición);
         }
         private static void AddEquipo()
         {
             Console.WriteLine("Ingrese el nombre del equipo");
-            string nombre=Console.ReadLine();
+            string nombre = Console.ReadLine();
             Console.WriteLine("Ingrese el id del municipio del equipo");
             int idMunicipio = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese el id del director técnico del equipo");
-            int idDT= Int32.Parse(Console.ReadLine());
-            var equipo = new Equipo{Nombre=nombre};
-<<<<<<< HEAD
-            _repoEquipo.AddEquipo(equipo,idMunicipio,idDT);
-=======
-            
+            int idDT = Int32.Parse(Console.ReadLine());
+            var equipo = new Equipo { Nombre = nombre };
+            _repoEquipo.AddEquipo(equipo, idMunicipio, idDT);
+        }
+        private static void GetAllMunicipios()
+        {
+            foreach (var municipio in _repoMunicipio.GetAllMunicipios())
+            {
+                Console.WriteLine(municipio.Id + " " + municipio.Nombre);
+            }
+        }
+        private static void GetAllEquipos()
+        {
+            foreach(var equipo in _repoEquipo.GetAllEquipos())
+            {
+                Console.WriteLine(equipo.Id+" "+ equipo.Nombre+" "+equipo.DirectorTecnico.Nombre+" "+equipo.Municipio.Nombre);
+            }
+        }
+        private static void GetAllDT()
+        {
+            foreach(var dt in _repoDT.GetAllDT())
+            {
+                Console.WriteLine(dt.Id+" "+dt.Nombre);
+            }
+        }
+        private static void GetAllJugadores()
+        {
+            foreach(var jugador in _repoJugador.GetAllJugadores())
+            {
+                Console.WriteLine(jugador.Id+" "+jugador.Nombre+" "+jugador.Numero+" "+jugador.Equipo.Nombre+" "+jugador.Posicion.Nombre);
+            }
         }
     }
 }
