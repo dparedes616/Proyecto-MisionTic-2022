@@ -77,7 +77,10 @@ namespace Torneo.App.Consola
             Console.WriteLine("Ingrese el id del director técnico del equipo");
             int idDT= Int32.Parse(Console.ReadLine());
             var equipo = new Equipo{Nombre=nombre};
+<<<<<<< HEAD
             _repoEquipo.AddEquipo(equipo,idMunicipio,idDT);
+=======
+            
         }
     }
 }
