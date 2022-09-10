@@ -24,7 +24,7 @@ namespace Torneo.App.Consola
                 Console.WriteLine("3. Insertar un partido");
                 Console.WriteLine("4. Insertar un director tecnico"); /*ok*/
                 Console.WriteLine("5. Insertar un equipo"); /*ok*/
-                Console.WriteLine("6. Insertar un jugador");
+                Console.WriteLine("6. Insertar un jugador"); /*ok*/
                 Console.WriteLine("-------------------------");
                 Console.WriteLine("7. Mostrar lista municipios"); /*ok*/
                 Console.WriteLine("8. Mostrar lista directores tecnicos"); /*ok*/
@@ -101,33 +101,20 @@ namespace Torneo.App.Consola
             string FechaHora = Console.ReadLine();
             DateTime FechaPartido = DateTime.Parse(FechaHora);
             Console.WriteLine("Ingrese el equipo local");
-            int Local = Int32.Parse(Console.ReadLine());
+            int IdLocal = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese marcador equipo local");
-            int MarcadorLocal = Int32.Parse(Console.ReadLine());
+            int marcadorLocal = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese mel equipo visitante");
-            int Visitante = Int32.Parse(Console.ReadLine());
+            int IdVisitante = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese marcador equipo visitante");
-            int MarcadorVisitante = Int32.Parse(Console.ReadLine());
+            int marcadorVisitante = Int32.Parse(Console.ReadLine());
             
-            /*var EquipoLocal = new Equipo
-            {
-                Nombre = Local
-            };
-
-            var EquipoVisitante = new Equipo
-            {
-                Nombre =Visitante
-            };*/
-
             var partido = new Partido
             {
                 FechaHora = FechaPartido,
-                Local = Local,
-                MarcadorLocal = MarcadorLocal,
-                Visitante = Visitante,
-                MarcadorVisitante = MarcadorVisitante,
+
             };
-            _repoPartido.AddPartido(partido);
+            _repoPartido.AddPartido(partido, FechaPartido, IdLocal, marcadorLocal, IdVisitante, marcadorVisitante);
         }
          //__________________________________________________________________________________________________________//
 

@@ -128,7 +128,7 @@ namespace Torneo.App.Persistencia.Migrations
                     b.Property<DateTime>("FechaHora")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Local")
+                    b.Property<int>("LocalId")
                         .HasColumnType("int");
 
                     b.Property<int>("MarcadorLocal")
@@ -137,10 +137,14 @@ namespace Torneo.App.Persistencia.Migrations
                     b.Property<int>("MarcadorVisitante")
                         .HasColumnType("int");
 
-                    b.Property<int>("Visitante")
+                    b.Property<int>("VisitanteId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("LocalId");
+
+                    b.HasIndex("VisitanteId");
 
                     b.ToTable("Partidos");
                 });
@@ -179,6 +183,25 @@ namespace Torneo.App.Persistencia.Migrations
                     b.Navigation("DirectorTecnico");
 
                     b.Navigation("Municipio");
+                });
+
+            modelBuilder.Entity("Torneo.App.Dominio.Partido", b =>
+                {
+                    b.HasOne("Torneo.App.Dominio.Equipo", "Local")
+                        .WithMany()
+                        .HasForeignKey("LocalId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("Torneo.App.Dominio.Equipo", "Visitante")
+                        .WithMany()
+                        .HasForeignKey("VisitanteId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Local");
+
+                    b.Navigation("Visitante");
                 });
 #pragma warning restore 612, 618
         }
