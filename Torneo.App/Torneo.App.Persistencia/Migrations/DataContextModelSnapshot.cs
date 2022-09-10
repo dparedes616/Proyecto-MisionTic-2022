@@ -101,7 +101,7 @@ namespace Torneo.App.Persistencia.Migrations
 
                     b.HasIndex("PosicionId");
 
-                    b.ToTable("Judaroes");
+                    b.ToTable("Jugadores");
                 });
 
             modelBuilder.Entity("Torneo.App.Dominio.Municipio", b =>

@@ -78,7 +78,7 @@ namespace Torneo.App.Persistencia.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Judaroes",
+                name: "Jugadores",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -90,15 +90,15 @@ namespace Torneo.App.Persistencia.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Judaroes", x => x.Id);
+                    table.PrimaryKey("PK_Jugadores", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Judaroes_Equipos_EquipoId",
+                        name: "FK_Jugadores_Equipos_EquipoId",
                         column: x => x.EquipoId,
                         principalTable: "Equipos",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Judaroes_Posiciones_PosicionId",
+                        name: "FK_Jugadores_Posiciones_PosicionId",
                         column: x => x.PosicionId,
                         principalTable: "Posiciones",
                         principalColumn: "Id",
@@ -145,13 +145,13 @@ namespace Torneo.App.Persistencia.Migrations
                 column: "MunicipioId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Judaroes_EquipoId",
-                table: "Judaroes",
+                name: "IX_Jugadores_EquipoId",
+                table: "Jugadores",
                 column: "EquipoId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Judaroes_PosicionId",
-                table: "Judaroes",
+                name: "IX_Jugadores_PosicionId",
+                table: "Jugadores",
                 column: "PosicionId");
 
             migrationBuilder.CreateIndex(
@@ -168,7 +168,7 @@ namespace Torneo.App.Persistencia.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Judaroes");
+                name: "Jugadores");
 
             migrationBuilder.DropTable(
                 name: "Partidos");

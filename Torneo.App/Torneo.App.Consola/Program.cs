@@ -1,6 +1,7 @@
 ﻿using Torneo.App.Dominio;
 using Torneo.App.Persistencia;
-namespace Torneo.App.Console
+using System;
+namespace Torneo.App.Consola
 {
     class Program
     {
@@ -30,8 +31,11 @@ namespace Torneo.App.Console
                     case 3:
                         AddJugador();
                         break;
+                     case 4:
+                        AddEquipo();
+                        break;
                 }
-            }while(opcion !=0);           
+            }while (opcion !=0);           
         }
         private static void AddMunicipio()
         {
@@ -49,7 +53,7 @@ namespace Torneo.App.Console
             Console.WriteLine("Ingrese el telefono del director técnico");
             string telefono =Console.ReadLine();
             var dt=new DirectorTecnico{Nombre= nombre,Documento=documento,Telefono=telefono,};
-            _repoDT.AddDT(nombre);
+            _repoDT.AddDT(dt);
         }
         private static void AddJugador()
         {
@@ -58,22 +62,22 @@ namespace Torneo.App.Console
             Console.WriteLine("Ingrese el numero del jugador");
             string numero =Console.ReadLine();
             Console.WriteLine("Ingrese el id del equipo del jugador");
-            string idequipo =Int32.Parse(Console.ReadLine());
+            int idequipo =Int32.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese el id de la posición del jugador");
-            string idposición =Int32.Parse(Console.ReadLine());
+            int idposición =Int32.Parse(Console.ReadLine());
             var jugador=new Jugador{Nombre=nombre, Numero=numero,};
-            _repoJugador.AddJugador(nombre,numero,idequipo,idposición);
+            _repoJugador.AddJugador(jugador,numero,idequipo,idposición);
         }
         private static void AddEquipo()
         {
-            Console.WriteLine("Ingrese el nombre del equipo")
+            Console.WriteLine("Ingrese el nombre del equipo");
             string nombre=Console.ReadLine();
-            Console.WriteLine("Ingrese el id del municipio del equipo")
+            Console.WriteLine("Ingrese el id del municipio del equipo");
             int idMunicipio = Int32.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese el id del director técnico del equipo")
+            Console.WriteLine("Ingrese el id del director técnico del equipo");
             int idDT= Int32.Parse(Console.ReadLine());
-            var equipo = new Equipo{Nombre=nombre}
-            _repoEquipo.AddEquipo(nombre,idMunicipio,idDT);
+            var equipo = new Equipo{Nombre=nombre};
+            _repoEquipo.AddEquipo(equipo,idMunicipio,idDT);
         }
     }
 }

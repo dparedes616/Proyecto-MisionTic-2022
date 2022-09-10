@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Torneo.App.Dominio;
-namespace Tornero.App.Persistencia
+namespace Torneo.App.Persistencia
 {
     public class RepositorioMunicipio : IRepositorioMunicipio
     {

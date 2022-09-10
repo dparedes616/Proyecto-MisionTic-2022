@@ -12,7 +12,7 @@ using Torneo.App.Persistencia;
 namespace Torneo.App.Persistencia.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20220824234614_InitialCreate")]
+    [Migration("20220909223426_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -103,7 +103,7 @@ namespace Torneo.App.Persistencia.Migrations
 
                     b.HasIndex("PosicionId");
 
-                    b.ToTable("Judaroes");
+                    b.ToTable("Jugadores");
                 });
 
             modelBuilder.Entity("Torneo.App.Dominio.Municipio", b =>

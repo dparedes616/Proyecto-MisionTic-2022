@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Consola\\Torneo.App.Console.csproj": {}
+    "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Consola\\Torneo.App.Consola.csproj": {}
   },
   "projects": {
-    "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Consola\\Torneo.App.Console.csproj": {
+    "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Consola\\Torneo.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Consola\\Torneo.App.Console.csproj",
-        "projectName": "Torneo.App.Console",
-        "projectPath": "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Consola\\Torneo.App.Console.csproj",
+        "projectUniqueName": "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Consola\\Torneo.App.Consola.csproj",
+        "projectName": "Torneo.App.Consola",
+        "projectPath": "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Consola\\Torneo.App.Consola.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
@@ -44,6 +44,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
