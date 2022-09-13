@@ -21,17 +21,17 @@ namespace Torneo.App.Consola
                 Console.WriteLine("-------------------------");
                 Console.WriteLine("1. Insertar un municipio"); /*ok*/
                 Console.WriteLine("2. Inserte una posición"); /*ok*/
-                Console.WriteLine("3. Insertar un partido");
-                Console.WriteLine("4. Insertar un director tecnico"); /*ok*/
-                Console.WriteLine("5. Insertar un equipo"); /*ok*/
-                Console.WriteLine("6. Insertar un jugador"); /*ok*/
+                Console.WriteLine("3. Insertar un director tecnico"); /*ok*/
+                Console.WriteLine("4. Insertar un equipo"); /*ok*/
+                Console.WriteLine("5. Insertar un jugador"); /*ok*/             
+                Console.WriteLine("6. Insertar un partido"); /*ok*/          
                 Console.WriteLine("-------------------------");
                 Console.WriteLine("7. Mostrar lista municipios"); /*ok*/
-                Console.WriteLine("8. Mostrar lista directores tecnicos"); /*ok*/
-                Console.WriteLine("9. Mostrar lista posiciones"); /*ok*/
+                Console.WriteLine("8. Mostrar lista posiciones"); /*ok*/
+                Console.WriteLine("9. Mostrar lista directores tecnicos"); /*ok*/
                 Console.WriteLine("10. Mostrar lista equipos"); /*ok*/
-                Console.WriteLine("11. Mostrar lista partidos"); /*ok*/
-                Console.WriteLine("12. Mostrar lista jugadores"); /*ok*/
+                Console.WriteLine("11. Mostrar lista jugadores"); /*ok*/
+                Console.WriteLine("12. Mostrar lista partidos"); /*ok*/
                 Console.WriteLine("-------------------------");
                 Console.WriteLine("0. Salir"); /*ok*/
                 opción = Int32.Parse(Console.ReadLine());
@@ -43,34 +43,34 @@ namespace Torneo.App.Consola
                     case 2:
                         AddPosicion();
                         break;
-                    case 3:
+                    case 6:
                         AddPartido();
                         break;
-                    case 4:
+                    case 3:
                         AddDT();
                         break;
-                    case 5:
+                    case 4:
                         AddEquipo();
                         break;
-                    case 6:
+                    case 5:
                         AddJugador();
                         break;
                     case 7:
                         GetAllMunicipios();
                         break;
-                    case 8:
+                    case 9:
                         GetAlldT();
                         break;
-                    case 9:
+                    case 8:
                         GetAllPosiciones();
                         break;
                     case 10:
                         GetAllEquipos();
                         break;
-                    case 11:
+                    case 12:
                         GetAllPartidos();
                         break;
-                    case 12:
+                    case 11:
                         GetAllJugadores();
                         break;
 
