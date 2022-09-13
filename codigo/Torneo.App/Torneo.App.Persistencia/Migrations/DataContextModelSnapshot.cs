@@ -82,7 +82,7 @@ namespace Torneo.App.Persistencia.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
 
-                    b.Property<int>("Equipo")
+                    b.Property<int>("EquipoId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre")
@@ -92,10 +92,14 @@ namespace Torneo.App.Persistencia.Migrations
                     b.Property<int>("Numero")
                         .HasColumnType("int");
 
-                    b.Property<int>("Posicion")
+                    b.Property<int>("PosicionId")
                         .HasColumnType("int");
 
                     b.HasKey("id");
+
+                    b.HasIndex("EquipoId");
+
+                    b.HasIndex("PosicionId");
 
                     b.ToTable("Jugadores");
                 });
@@ -183,6 +187,25 @@ namespace Torneo.App.Persistencia.Migrations
                     b.Navigation("DirectorTecnico");
 
                     b.Navigation("Municipio");
+                });
+
+            modelBuilder.Entity("Torneo.App.Dominio.Jugador", b =>
+                {
+                    b.HasOne("Torneo.App.Dominio.Equipo", "Equipo")
+                        .WithMany()
+                        .HasForeignKey("EquipoId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("Torneo.App.Dominio.Posicion", "Posicion")
+                        .WithMany()
+                        .HasForeignKey("PosicionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Equipo");
+
+                    b.Navigation("Posicion");
                 });
 
             modelBuilder.Entity("Torneo.App.Dominio.Partido", b =>

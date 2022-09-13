@@ -30,6 +30,7 @@ namespace Torneo.App.Consola
                 Console.WriteLine("8. Mostrar lista directores tecnicos"); /*ok*/
                 Console.WriteLine("9. Mostrar lista posiciones"); /*ok*/
                 Console.WriteLine("10. Mostrar lista equipos"); /*ok*/
+                Console.WriteLine("11. Mostrar lista partidos"); /*ok*/
                 Console.WriteLine("-------------------------");
                 Console.WriteLine("0. Salir"); /*ok*/
                 opción = Int32.Parse(Console.ReadLine());
@@ -65,6 +66,10 @@ namespace Torneo.App.Consola
                     case 10:
                         GetAllEquipos();
                         break;
+                    case 11:
+                        GetAllPartidos();
+                        break;
+
 
                 }
 
@@ -210,6 +215,16 @@ namespace Torneo.App.Consola
             foreach (var equipos in _repoEquipo.GetAllEquipos())
             {
                 Console.WriteLine(equipos.Nombre + " " + equipos.Municipio.Nombre + " " + equipos.DirectorTecnico.Nombre);
+            }
+        }
+
+            //Metodo Get Partidos__________________________________________________________________________________________________________//
+
+        private static void GetAllPartidos()
+        { 
+            foreach (var partidos in _repoPartido.GetAllPartidos())
+            {
+                Console.WriteLine("Fecha y Horio del Partido " + partidos.FechaHora + " L: " + partidos.Local.Nombre + " Goles: " + partidos.MarcadorLocal + " vs V: " + partidos.Visitante.Nombre + " Goles: "+ partidos.MarcadorVisitante);
             }
         }
     }
