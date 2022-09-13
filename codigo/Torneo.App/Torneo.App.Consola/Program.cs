@@ -31,6 +31,7 @@ namespace Torneo.App.Consola
                 Console.WriteLine("9. Mostrar lista posiciones"); /*ok*/
                 Console.WriteLine("10. Mostrar lista equipos"); /*ok*/
                 Console.WriteLine("11. Mostrar lista partidos"); /*ok*/
+                Console.WriteLine("12. Mostrar lista jugadores"); /*ok*/
                 Console.WriteLine("-------------------------");
                 Console.WriteLine("0. Salir"); /*ok*/
                 opción = Int32.Parse(Console.ReadLine());
@@ -68,6 +69,9 @@ namespace Torneo.App.Consola
                         break;
                     case 11:
                         GetAllPartidos();
+                        break;
+                    case 12:
+                        GetAllJugadores();
                         break;
 
 
@@ -225,6 +229,15 @@ namespace Torneo.App.Consola
             foreach (var partidos in _repoPartido.GetAllPartidos())
             {
                 Console.WriteLine("Fecha y Horio del Partido " + partidos.FechaHora + " L: " + partidos.Local.Nombre + " Goles: " + partidos.MarcadorLocal + " vs V: " + partidos.Visitante.Nombre + " Goles: "+ partidos.MarcadorVisitante);
+            }
+        }
+
+            //Metodo Get Jugadores__________________________________________________________________________________________________________//
+        private static void GetAllJugadores()
+        { 
+            foreach (var jugador in _repoJugador.GetAllJugadores())
+            {
+                Console.WriteLine("Nombre:  " + jugador.Nombre + " Numero: " + jugador.Numero + " Equipo: " + jugador.Equipo.Nombre + " Posición: " + jugador.Posicion.Nombre);
             }
         }
     }
