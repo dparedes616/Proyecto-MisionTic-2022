@@ -1,0 +1,26 @@
+﻿@page
+@model Torneo.App.Frontend.Pages.Dts.CreateModel
+@{
+}
+<h1>Nuevo director tecnico</h1>
+<p></p>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="dt.Nombre"></label>
+        <input asp-for="dt.Nombre" class="form-control">
+    </div>
+<p></p>
+    <div class="form-group">
+        <label asp-for="dt.Documento"></label>
+        <input asp-for="dt.Documento" class="form-control">
+    </div>
+<p></p>
+    <div class="form-group">
+        <label asp-for="dt.Telefono"></label>
+        <input asp-for="dt.Telefono" class="form-control">
+    </div>
+<p></p>
+<button type="submit" class="btn btn-primary btn-block">Crear director tecnico</button>
+</form>
+<p></p>
+<a class="btn btn-secondary" asp-page="./Index">Volver</a>

@@ -81,7 +81,7 @@ namespace Torneo.App.Persistencia.Migrations
                 name: "Jugadores",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Numero = table.Column<int>(type: "int", nullable: false),
@@ -90,7 +90,7 @@ namespace Torneo.App.Persistencia.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Jugadores", x => x.Id);
+                    table.PrimaryKey("PK_Jugadores", x => x.id);
                     table.ForeignKey(
                         name: "FK_Jugadores_Equipos_EquipoId",
                         column: x => x.EquipoId,

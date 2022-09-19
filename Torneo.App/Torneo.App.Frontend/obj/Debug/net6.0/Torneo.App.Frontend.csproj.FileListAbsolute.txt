@@ -1,0 +1,126 @@
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\appsettings.Development.json
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\appsettings.json
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Frontend.staticwebassets.runtime.json
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Frontend.exe
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Frontend.deps.json
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Frontend.runtimeconfig.json
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Frontend.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Frontend.pdb
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.csproj.AssemblyReference.cache
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.AssemblyInfoInputs.cache
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.AssemblyInfo.cs
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.csproj.CoreCompileInputs.cache
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.RazorAssemblyInfo.cache
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.RazorAssemblyInfo.cs
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\staticwebassets.build.json
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\staticwebassets.development.json
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\scopedcss\bundle\Torneo.App.Frontend.styles.css
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\scopedcss\projectbundle\Torneo.App.Frontend.bundle.scp.css
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\refint\Torneo.App.Frontend.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.pdb
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.genruntimeconfig.cache
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\ref\Torneo.App.Frontend.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\System.Drawing.Common.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\System.Runtime.Caching.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\System.Security.Permissions.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\System.Windows.Extensions.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Dominio.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Persistencia.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Dominio.pdb
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Persistencia.pdb
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.csproj.CopyComplete
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\appsettings.Development.json
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\appsettings.json
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Frontend.staticwebassets.runtime.json
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Frontend.exe
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Frontend.deps.json
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Frontend.runtimeconfig.json
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Frontend.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Frontend.pdb
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Dominio.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Persistencia.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Dominio.pdb
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\bin\Debug\net6.0\Torneo.App.Persistencia.pdb
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.csproj.AssemblyReference.cache
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.AssemblyInfoInputs.cache
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.AssemblyInfo.cs
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.csproj.CoreCompileInputs.cache
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.RazorAssemblyInfo.cache
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.RazorAssemblyInfo.cs
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\staticwebassets.build.json
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\staticwebassets.development.json
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\scopedcss\bundle\Torneo.App.Frontend.styles.css
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\scopedcss\projectbundle\Torneo.App.Frontend.bundle.scp.css
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.csproj.CopyComplete
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\refint\Torneo.App.Frontend.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.pdb
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\Torneo.App.Frontend.genruntimeconfig.cache
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Frontend\obj\Debug\net6.0\ref\Torneo.App.Frontend.dll

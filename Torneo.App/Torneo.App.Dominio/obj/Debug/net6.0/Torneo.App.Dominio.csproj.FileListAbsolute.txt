@@ -1,36 +1,24 @@
-D:\RETO_MIN_TIC\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.csproj.AssemblyReference.cache
-D:\RETO_MIN_TIC\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
-D:\RETO_MIN_TIC\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.AssemblyInfoInputs.cache
-D:\RETO_MIN_TIC\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.AssemblyInfo.cs
-D:\RETO_MIN_TIC\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.csproj.CoreCompileInputs.cache
-D:\RETO_MIN_TIC\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.deps.json
-D:\RETO_MIN_TIC\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.dll
-D:\RETO_MIN_TIC\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.pdb
-D:\RETO_MIN_TIC\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.dll
-D:\RETO_MIN_TIC\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\refint\Torneo.App.Dominio.dll
-D:\RETO_MIN_TIC\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.pdb
-D:\RETO_MIN_TIC\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\ref\Torneo.App.Dominio.dll
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.deps.json
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.dll
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.pdb
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.csproj.AssemblyReference.cache
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.AssemblyInfoInputs.cache
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.AssemblyInfo.cs
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.csproj.CoreCompileInputs.cache
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.dll
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\refint\Torneo.App.Dominio.dll
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.pdb
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\ref\Torneo.App.Dominio.dll
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.deps.json
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.dll
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.pdb
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.csproj.AssemblyReference.cache
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.AssemblyInfoInputs.cache
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.AssemblyInfo.cs
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.csproj.CoreCompileInputs.cache
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.dll
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\refint\Torneo.App.Dominio.dll
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.pdb
-D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Proyecto-MisionTic-2022\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\ref\Torneo.App.Dominio.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.csproj.AssemblyReference.cache
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.AssemblyInfoInputs.cache
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.AssemblyInfo.cs
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.csproj.CoreCompileInputs.cache
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.deps.json
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.pdb
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\refint\Torneo.App.Dominio.dll
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.pdb
+G:\documents\misiontic\semestre3\proyecto\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\ref\Torneo.App.Dominio.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.deps.json
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.pdb
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.csproj.AssemblyReference.cache
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.AssemblyInfoInputs.cache
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.AssemblyInfo.cs
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.csproj.CoreCompileInputs.cache
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\refint\Torneo.App.Dominio.dll
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.pdb
+D:\RETO_MIN_TIC\Proyecto-MisionTic-2022\Pull 16-09-2022\Proyecto-MisionTic-2022\codigo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\ref\Torneo.App.Dominio.dll

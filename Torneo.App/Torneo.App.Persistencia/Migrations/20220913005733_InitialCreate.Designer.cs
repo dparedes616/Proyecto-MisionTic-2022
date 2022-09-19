@@ -12,7 +12,7 @@ using Torneo.App.Persistencia;
 namespace Torneo.App.Persistencia.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20220909223426_InitialCreate")]
+    [Migration("20220913005733_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,7 +24,7 @@ namespace Torneo.App.Persistencia.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("Torneo.App.Dominio.DirectorTecnico", b =>
+            modelBuilder.Entity("Torneo.App.Dominio.DT", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -78,11 +78,11 @@ namespace Torneo.App.Persistencia.Migrations
 
             modelBuilder.Entity("Torneo.App.Dominio.Jugador", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
 
                     b.Property<int>("EquipoId")
                         .HasColumnType("int");
@@ -97,7 +97,7 @@ namespace Torneo.App.Persistencia.Migrations
                     b.Property<int>("PosicionId")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
+                    b.HasKey("id");
 
                     b.HasIndex("EquipoId");
 
@@ -174,7 +174,7 @@ namespace Torneo.App.Persistencia.Migrations
 
             modelBuilder.Entity("Torneo.App.Dominio.Equipo", b =>
                 {
-                    b.HasOne("Torneo.App.Dominio.DirectorTecnico", "DirectorTecnico")
+                    b.HasOne("Torneo.App.Dominio.DT", "DirectorTecnico")
                         .WithMany()
                         .HasForeignKey("DirectorTecnicoId")
                         .OnDelete(DeleteBehavior.Restrict)

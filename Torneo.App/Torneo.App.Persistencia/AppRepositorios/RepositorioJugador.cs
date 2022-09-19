@@ -1,25 +1,35 @@
 using Microsoft.EntityFrameworkCore;
 using Torneo.App.Dominio;
+
 namespace Torneo.App.Persistencia
 {
     public class RepositorioJugador : IRepositorioJugador
     {
         private readonly DataContext _dataContext = new DataContext();
-        public Jugador AddJugador(Jugador jugador,string numero, int idequipo, int idposicion)
+
+        public Jugador AddJugador(Jugador jugador, int IdEquipo, int IdPosicion)
         {
-            var equipoEncontrado =_dataContext.Equipos.Find(idequipo);
-            var posicionEncontrada = _dataContext.Posiciones.Find(idposicion);
+            var equipoEncontrado = _dataContext.Equipos.Find(IdEquipo);
+            var posicionEncontrada = _dataContext.Posiciones.Find(IdPosicion);
             jugador.Equipo = equipoEncontrado;
             jugador.Posicion = posicionEncontrada;
-            jugador.Numero = numero;
             var jugadorInsertado = _dataContext.Jugadores.Add(jugador);
             _dataContext.SaveChanges();
             return jugadorInsertado.Entity;
         }
+
         public IEnumerable<Jugador> GetAllJugadores()
         {
-            var jugadores = _dataContext.Jugadores.Include(e=>e.Equipo).Include(e=>e.Posicion).ToList();
-            return jugadores;
+            var jugador = _dataContext.Jugadores
+            .Include(e => e.Equipo)
+            .Include(e => e.Posicion)
+            .ToList();
+            return jugador;
+        }
+        public Jugador GetJugador(int idJugador)
+        {
+            var jugadorEncontrado = _dataContext.Jugadores.Find(idJugador);
+            return jugadorEncontrado;
         }
     }
 }

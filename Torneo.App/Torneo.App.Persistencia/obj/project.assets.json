@@ -2035,11 +2035,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
+      "projectUniqueName": "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Pull 16-09-2022\\Proyecto-MisionTic-2022\\codigo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
       "projectName": "Torneo.App.Persistencia",
-      "projectPath": "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
+      "projectPath": "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Pull 16-09-2022\\Proyecto-MisionTic-2022\\codigo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Persistencia\\obj\\",
+      "outputPath": "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Pull 16-09-2022\\Proyecto-MisionTic-2022\\codigo\\Torneo.App\\Torneo.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2054,8 +2054,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj": {
-              "projectPath": "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Proyecto-MisionTic-2022\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj"
+            "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Pull 16-09-2022\\Proyecto-MisionTic-2022\\codigo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj": {
+              "projectPath": "D:\\RETO_MIN_TIC\\Proyecto-MisionTic-2022\\Pull 16-09-2022\\Proyecto-MisionTic-2022\\codigo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj"
             }
           }
         }
