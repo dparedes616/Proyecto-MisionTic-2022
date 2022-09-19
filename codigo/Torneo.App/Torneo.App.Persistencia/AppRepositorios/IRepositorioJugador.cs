@@ -5,6 +5,7 @@ using Torneo.App.Dominio;
     {
         public Jugador AddJugador (Jugador jugador, int IdEquipo, int IdPosicion);
         public IEnumerable<Jugador> GetAllJugadores();
+        public Jugador GetJugador(int idJugador);
 
     }
  }
