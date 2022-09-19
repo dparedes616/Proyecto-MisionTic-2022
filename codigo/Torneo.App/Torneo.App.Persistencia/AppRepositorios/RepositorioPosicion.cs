@@ -18,5 +18,11 @@ namespace Torneo.App.Persistencia
         {
             return _dataContext.Posiciones;
         }
+
+        public Posicion GetPosicion(int idPosicion)
+        {
+            var municipioEncontrado = _dataContext.Municipios.Find(idMunicipio);
+            return municipioEncontrado;
+        }
     }
 } 
