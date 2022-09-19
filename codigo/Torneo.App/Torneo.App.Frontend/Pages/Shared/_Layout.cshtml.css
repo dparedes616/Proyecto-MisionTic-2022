@@ -41,6 +41,8 @@ button.accept-policy {
 
 .footer {
   position: absolute;
+  color: rgb(3, 3, 3);
+  background-color: #1b6ec2;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
