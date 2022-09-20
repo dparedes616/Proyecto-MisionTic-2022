@@ -16,8 +16,7 @@ namespace Torneo.App.Frontend.Pages.Equipos
         public IEnumerable<Municipio> municipio { get; set; }
         public IEnumerable<DT> dt { get; set; }
         
-        public CreateModel(IRepositorioEquipo repoEquipo, IRepositorioMunicipio
-            repoMunicipio, IRepositorioDT repoDT)
+        public CreateModel(IRepositorioEquipo repoEquipo, IRepositorioMunicipio repoMunicipio, IRepositorioDT repoDT)
             {
                 _repoEquipo = repoEquipo;
                 _repoMunicipio = repoMunicipio;

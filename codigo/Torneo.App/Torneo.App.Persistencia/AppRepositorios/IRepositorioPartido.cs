@@ -3,7 +3,7 @@ using Torneo.App.Dominio;
  {
     public interface IRepositorioPartido
     {
-        public Partido AddPartido (Partido partido, DateTime FechaHora, int IdLocal, int MarcadorLocal, int IdVisitante, int MarcadorVisitante);
+        public Partido AddPartido (Partido partido, DateTime FechaHora, int IdLocal, int marcadorLocal, int IdVisitante, int marcadorVisitante);
         public IEnumerable<Partido> GetAllPartidos();
         public Partido GetPartido(int idPartido);
     }

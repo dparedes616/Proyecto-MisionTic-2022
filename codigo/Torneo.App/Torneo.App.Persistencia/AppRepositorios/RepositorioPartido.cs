@@ -12,6 +12,7 @@ namespace Torneo.App.Persistencia
             var localEcontrado = _dataContext.Equipos.Find(IdLocal);
             var visitanteEcontrado = _dataContext.Equipos.Find(IdVisitante);
             partido.Local = localEcontrado;
+            
             partido.MarcadorLocal = marcadorLocal;
             partido.Visitante = visitanteEcontrado;
             partido.MarcadorVisitante = marcadorVisitante;       
