@@ -11,26 +11,24 @@ namespace Torneo.App.Frontend.Pages.Partidos
         private readonly IRepositorioEquipo _repoEquipo;
 
         public Partido partido {get; set;}
-        public IEnumerable<Equipo> equipo { get; set; }
-        
+        public IEnumerable<Equipo> equipos { get; set; }
+
         public CreateModel(IRepositorioPartido repoPartido, IRepositorioEquipo repoEquipo)
         {
             _repoPartido = repoPartido;
             _repoEquipo = repoEquipo;
-        }
-
+        }  
         public void OnGet()
         {
             partido = new Partido();
-            equipo = _repoEquipo.GetAllEquipos();
+            equipos = _repoEquipo.GetAllEquipos();
         }
 
-        public IActionResult OnPost(Partido partido, DateTime FechaHora, int IdLocal, int marcadorLocal, int IdVisitante, int marcadorVisitante)
+        public IActionResult OnPost (Partido partido, DateTime FechaHora, int idLocal, int marcadorLocal, int idVisitante, int marcadorVisitante)
         {
-            Console.WriteLine("Error" + IdLocal);
             partido = new Partido();
-            equipo = _repoEquipo.GetAllEquipos();
-            _repoPartido.AddPartido(partido, FechaHora, IdLocal, marcadorLocal, IdVisitante, marcadorVisitante);
+            equipos = _repoEquipo.GetAllEquipos();
+            _repoPartido.AddPartido( partido, FechaHora, idLocal, marcadorLocal, idVisitante, marcadorVisitante);
             return RedirectToPage("Index");
         }
     }
