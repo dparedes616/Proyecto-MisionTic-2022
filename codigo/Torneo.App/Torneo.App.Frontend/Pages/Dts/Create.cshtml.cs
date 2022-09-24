@@ -21,8 +21,16 @@ namespace Torneo.App.Frontend.Pages.Dts
 
         public IActionResult OnPost(DT dt)
         {
-            _repoDT.AddDT(dt);
-            return RedirectToPage("Index");
+            if (ModelState.IsValid)
+            {
+                _repoDT.AddDT(dt);
+                return RedirectToPage("Index");
+            }
+            else
+            {
+                return Page();
+            }
+
         }
     }
 }

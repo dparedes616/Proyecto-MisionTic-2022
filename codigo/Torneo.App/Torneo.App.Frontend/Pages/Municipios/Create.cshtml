@@ -8,9 +8,10 @@
     <div class="form-floating mb-3">
         <label asp-for="municipio.Nombre"></label>
         <input asp-for="municipio.Nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="municipio.Nombre"></span>
     </div>
 <p></p>   
-<button type="submit" class="btn btn-primary btn-block">Crear municipio</button>
+<button type="submit" class="btn btn-success btn-block">Crear municipio</button>
 </form>
 <p></p>
-<a class="btn btn-secondary" asp-page="./Index">Volver</a>
+<a class="btn btn-success" asp-page="./Index">Volver</a>

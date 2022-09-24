@@ -6,5 +6,6 @@ using Torneo.App.Dominio;
         public Municipio AddMunicipio (Municipio municipio);
         public IEnumerable<Municipio> GetAllMunicipios();
         public Municipio GetMunicipio(int idMunicipio);
+        public Municipio UpdateMunicipio(Municipio municipio);
     }
  }

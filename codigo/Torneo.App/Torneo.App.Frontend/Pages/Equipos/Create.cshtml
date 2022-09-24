@@ -7,6 +7,7 @@
     <div class="form-floating mb-3">
         <input asp-for="equipo.Nombre" class="form-control" id="floatingInput" placeholder="name@example.com">
         <label asp-for="equipo.Nombre">Nombre Equipo</label>
+        <span class="text-danger" asp-validation-for="equipo.Nombre"></span>
     </div>
     <div class="form-floating mb-3">
         <label for="idMunicipio">Municipio</label>
@@ -29,9 +30,9 @@
         </select>
     </div>
     <h1>
-        <button type="submit" class="btn btn-primary btn-block">Crear equipo</button>
+        <button type="submit" class="btn btn-success btn-block">Crear equipo</button>
     </h1>
 </form>
 <h1>
-<a class="btn btn-secondary" asp-page="./Index">Volver</a>
+<a class="btn btn-success" asp-page="./Index">Volver</a>
 </h1>
