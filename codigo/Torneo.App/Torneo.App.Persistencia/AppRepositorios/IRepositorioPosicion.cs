@@ -6,5 +6,6 @@ using Torneo.App.Dominio;
         public Posicion AddPosicion (Posicion posicion);
         public IEnumerable<Posicion> GetAllPosiciones();
         public Posicion GetPosicion(int idPosicion);
+        
     }
  }
