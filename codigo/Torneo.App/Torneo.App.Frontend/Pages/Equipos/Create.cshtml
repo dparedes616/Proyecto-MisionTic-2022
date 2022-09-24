@@ -4,22 +4,24 @@
 }
 <h1>Nuevo equipo</h1>
 <form method="post">
-    <div class="form-group">
-        <label asp-for="equipo.Nombre"></label>
-        <input asp-for="equipo.Nombre" class="form-control">
+    <div class="form-floating mb-3">
+        <input asp-for="equipo.Nombre" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label asp-for="equipo.Nombre">Nombre Equipo</label>
     </div>
-    <div class="form-group">
+    <div class="form-floating mb-3">
         <label for="idMunicipio">Municipio</label>
         <select id="idMunicipio" name="idMunicipio" class="form-control">
+        <option value=""></option>
             @foreach (var municipio in Model.municipio)
             {
                 <option value="@municipio.Id">@municipio.Nombre</option>
             }
         </select>
     </div>
-    <div class="form-group">
-        <label for="idDT">D.T.</label>
+    <div class="form-floating mb-3">
+        <label for="idDT">Director Tecnico</label>
         <select id="idDT" name="idDT" class="form-control">
+        <option value=""></option>
             @foreach (var dt in Model.dt)
             {
                 <option value="@dt.Id">@dt.Nombre</option>

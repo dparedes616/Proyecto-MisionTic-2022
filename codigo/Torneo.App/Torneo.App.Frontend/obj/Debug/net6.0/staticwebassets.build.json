@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SXVaNdUHrZsG6QMv15xr6qpWkPW+cv4J4VG01emVzyM=",
+  "Hash": "n0t3Nkf6lPCahRDqDNNd9sfcaaOYni/hc8xG+WF+Yy4=",
   "Source": "Torneo.App.Frontend",
   "BasePath": "_content/Torneo.App.Frontend",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "G:\\documents\\misiontic\\semestre3\\proyecto\\codigo\\Torneo.App\\Torneo.App.Frontend\\wwwroot\\hawaii.jpg",
-      "SourceId": "Torneo.App.Frontend",
-      "SourceType": "Discovered",
-      "ContentRoot": "G:\\documents\\misiontic\\semestre3\\proyecto\\codigo\\Torneo.App\\Torneo.App.Frontend\\wwwroot\\",
-      "BasePath": "_content/Torneo.App.Frontend",
-      "RelativePath": "hawaii.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\hawaii.jpg"
     },
     {
       "Identity": "G:\\documents\\misiontic\\semestre3\\proyecto\\codigo\\Torneo.App\\Torneo.App.Frontend\\wwwroot\\js\\site.js",
@@ -1086,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "G:\\documents\\misiontic\\semestre3\\proyecto\\codigo\\Torneo.App\\Torneo.App.Frontend\\wwwroot\\Logo.png",
+      "SourceId": "Torneo.App.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\documents\\misiontic\\semestre3\\proyecto\\codigo\\Torneo.App\\Torneo.App.Frontend\\wwwroot\\",
+      "BasePath": "_content/Torneo.App.Frontend",
+      "RelativePath": "Logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Logo.png"
     },
     {
       "Identity": "G:\\documents\\misiontic\\semestre3\\proyecto\\codigo\\Torneo.App\\Torneo.App.Frontend\\wwwroot\\Torneo1.jpg",

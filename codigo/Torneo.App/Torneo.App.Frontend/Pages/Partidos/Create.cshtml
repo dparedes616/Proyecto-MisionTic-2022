@@ -4,33 +4,35 @@
 }
 <h1>Nuevo Partido</h1>
 <form method="post">
-    <div class="form-group">
+    <div class="form-floating mb-3">
         <label asp-for="partido.FechaHora"> Fecha y Hora</label>
         <input asp-for="partido.FechaHora" class="form-control">
     </div>
-    <div class="form-group">
+    <div class="form-floating mb-3">
         <label for="idLocal">Local</label>
         <select id="idLocal" name="idLocal" class="form-control">
+        <option value=""></option>
             @foreach (var equipo in Model.equipos)
             {
                 <option value="@equipo.Id">@equipo.Nombre</option>
             }
         </select>
     </div>
-    <div class="form-group">
+    <div class="form-floating mb-3">
         <label asp-for="partido.MarcadorLocal"> Goles</label>
         <input asp-for="partido.MarcadorLocal" class="form-control">
     </div>
-    <div class="form-group">
+    <div class="form-floating mb-3">
         <label for="idVisitante">Visitante</label>
         <select id="idVisitante" name="idVisitante" class="form-control">
+        <option value=""></option>
             @foreach (var equipo in Model.equipos)
             {
                 <option value="@equipo.Id">@equipo.Nombre</option>
             }
         </select>
     </div>
-    <div class="form-group">
+    <div class="form-floating mb-3">
         <label asp-for="partido.MarcadorVisitante"> Goles</label>
         <input asp-for="partido.MarcadorVisitante" class="form-control">
     </div>
