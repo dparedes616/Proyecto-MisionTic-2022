@@ -2,11 +2,12 @@
 @model Torneo.App.Frontend.Pages.Jugadores.IndexModel
 @{
 }
+<a class="btn btn-success" asp-page="./Create">Crear Jugador</a>
 <div class="container-fluid";">
 <h1>Listado de Jugadores</h1>
 </div>
 
-<table class="table table-dark table-sm">
+<table class="table table-success table-striped">
     <thead>
         <tr>
             <th scope="col">Id</th>
@@ -21,7 +22,7 @@
             <th scope="row">@jugador.id</th>
             <td>@jugador.Nombre</td>
             <td>
-                <a class="btn btn-outline-light" asp-page="./Details" asp-route-id="@jugador.id">
+                <a class="btn btn-success" asp-page="./Details" asp-route-id="@jugador.id">
                 Detalle
                 </a>
             </td>
