@@ -22,8 +22,11 @@
             <th scope="row">@dt.Id</th>
             <td>@dt.Nombre</td>
             <td>
-                <a class="btn btn-outline-light" asp-page="./Details" asp-route-id="@dt.Id">
+                <a class="btn btn-success" asp-page="./Details" asp-route-id="@dt.Id">
                 Detalle
+                </a>
+                <a class="btn btn-success" asp-page="./Edit" asp-route-id="@dt.Id">
+                Editar
                 </a>
             </td>
         </tr>

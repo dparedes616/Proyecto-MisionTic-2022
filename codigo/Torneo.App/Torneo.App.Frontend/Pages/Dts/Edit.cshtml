@@ -1,0 +1,36 @@
+﻿@page
+@model Torneo.App.Frontend.Pages.Dts.EditModel
+@{
+}
+
+<h1>Actulizar director tecnico</h1>
+<p></p>
+<form method="post">
+    <div class="form-floating mb-3">
+        <label asp-for="dt.Id"></label>
+        <input asp-for="dt.Id" class="form-control" readonly>
+        <span class="text-danger" asp-validation-for="dt.Id"></span>
+    </div>
+<p></p>
+    <div class="form-floating mb-3">
+        <label asp-for="dt.Nombre"></label>
+        <input asp-for="dt.Nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="dt.Nombre"></span>
+    </div>
+<p></p>
+    <div class="form-floating mb-3">
+        <label asp-for="dt.Documento"></label>
+        <input asp-for="dt.Documento" class="form-control">
+        <span class="text-danger" asp-validation-for="dt.Documento"></span>
+    </div>
+<p></p>
+    <div class="form-floating mb-3">
+        <label asp-for="dt.Telefono"></label>
+        <input asp-for="dt.Telefono" class="form-control">
+        <span class="text-danger" asp-validation-for="dt.Telefono"></span>
+    </div>
+<p></p>
+<button type="submit" class="btn btn-success btn-block">Actulizar director tecnico</button>
+</form>
+<p></p>
+<a class="btn btn-success" asp-page="./Index">Volver</a>

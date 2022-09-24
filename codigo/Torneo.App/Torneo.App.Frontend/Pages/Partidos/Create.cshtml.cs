@@ -26,17 +26,17 @@ namespace Torneo.App.Frontend.Pages.Partidos
 
         public IActionResult OnPost (Partido partido, DateTime FechaHora, int idLocal, int marcadorLocal, int idVisitante, int marcadorVisitante)
         {
-            if (ModelState.IsValid)
-            {
+//            if (ModelState.IsValid)
+//           {
                 partido = new Partido();
                 equipos = _repoEquipo.GetAllEquipos();
                 _repoPartido.AddPartido( partido, FechaHora, idLocal, marcadorLocal, idVisitante, marcadorVisitante);
                 return RedirectToPage("Index");
-            }
-            else
-            {
-                return RedirectToPage("Create");
-            }
+//            }
+//            else
+//            {
+//                return RedirectToPage("Create");
+//            }
 
         }
     }
