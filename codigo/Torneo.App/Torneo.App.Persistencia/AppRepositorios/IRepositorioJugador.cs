@@ -6,6 +6,7 @@ using Torneo.App.Dominio;
         public Jugador AddJugador (Jugador jugador, int IdEquipo, int IdPosicion);
         public IEnumerable<Jugador> GetAllJugadores();
         public Jugador GetJugador(int idJugador);
+        public Jugador UpdateJugador(Jugador jugador, int numero, int IdEquipo, int IdPosicion);
 
     }
  }
