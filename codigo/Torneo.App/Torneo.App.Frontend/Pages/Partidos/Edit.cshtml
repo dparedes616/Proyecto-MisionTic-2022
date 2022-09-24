@@ -1,0 +1,38 @@
+﻿@page
+@model Torneo.App.Frontend.Pages.Partidos.EditModel
+@{
+}
+
+<h1>Editar equipo</h1>
+<form method="post">
+<div class="form-group">
+    <label asp-for="partido.Id"></label>
+    <input asp-for="partido.Id" class="form-control" readonly>
+</div>
+<div class="form-group">
+    <label asp-for="partido.FechaHora"></label>
+    <input asp-for="partido.FechaHora" class="form-control">
+</div>
+<div class="form-group">
+    <label asp-for="EquipoLocalSelected"></label>
+    <select asp-for="EquipoLocalSelected" asp-items="@Model.EquipoLocalOptions" name="IdLocal" class="form-control">
+</select>
+</div>
+<div class="form-group">
+    <label asp-for="partido.MarcadorLocal"></label>
+    <input asp-for="partido.MarcadorLocal" class="form-control">
+</div>
+<div class="form-group">
+    <label asp-for="EquipoVisitanteSelected"></label>
+    <select asp-for="EquipoVisitanteSelected" asp-items="@Model.EquipoLocalOptions" name="IdVisitante" class="form-control">
+</select>
+</div>
+<div class="form-group">
+    <label asp-for="partido.MarcadorVisitante"></label>
+    <input asp-for="partido.MarcadorVisitante" class="form-control">
+</div>
+
+
+<button type="submit" class="btn btn-success">Actulizar equipo</button>
+</form>
+<a class="btn btn-success" asp-page="./Index">Volver</a>
